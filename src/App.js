@@ -1,9 +1,9 @@
 import './App.css';
-
+import Header from "./header.jsx";
 function App() {
   return (
     <div>
-        Hello ewiase nyinaa hene
+        <Header/>
     </div>
   
   );
