@@ -39,8 +39,8 @@ class Header extends React.Component {
         </div>
              <div className="header__right">
                 <div className="header__info">
-                    <Avatar/>
-                    <h5>Brhedha Genics</h5>
+                    <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSepYzwtjgi3BMsmHmU4sJzzSG8Osq72hgavA&usqp=CAU"/>
+                    <h5>Jeff Bezos</h5>
                 </div>
                 <IconButton>
                     <Add></Add>

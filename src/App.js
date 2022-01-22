@@ -1,11 +1,17 @@
 import './App.css';
+import Feed from './Feed';
 import Header from "./header.jsx";
 import SideBar from './sideBar.jsx';
 function App() {
   return (
-    <div>
+    <div className='app'>
         <Header/>
-        <SideBar/>
+        <div className='app__body'>
+          <SideBar/>
+          <Feed/>
+        </div>
+        
+        
     </div>
   
   );
