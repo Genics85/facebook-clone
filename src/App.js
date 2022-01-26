@@ -5,9 +5,11 @@ import Header from "./header.jsx";
 import Login from './Login';
 import SideBar from './sideBar.jsx';
 import Widget from './Widget';
+import { useStateValue } from './StateProvider';
+
 
 function App() {
-  const user=null;
+  const [{user}, dispatch]= useStateValue();
 
   return (
     <div className='app'>
