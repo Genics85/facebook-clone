@@ -2,6 +2,7 @@ import { Avatar } from '@material-ui/core';
 import { AccountCircle, ChatBubble, ExpandMore, NearMe, ThumbUp } from '@material-ui/icons';
 import React from 'react';
 import "./Posts.css"
+
 function Posts({userName,image,profilePic,timeStamp,message}) {
   return <div className='post'>
       <div className="post__top">
@@ -11,7 +12,7 @@ function Posts({userName,image,profilePic,timeStamp,message}) {
         />
         <div className='post__top--info'>
             <h3>{userName}</h3>
-            <p>timestamp</p>
+            <p>{new Date(timeStamp.toDate()).toUTCString()}</p>
         </div>
         
       </div>
